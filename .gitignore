@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data & Large Artifacts
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Model Checkpoints
+models/*
+!models/.gitkeep
+
+# Generated Outputs
+results/plots/*
+results/metrics/*
+results/reports/*
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
